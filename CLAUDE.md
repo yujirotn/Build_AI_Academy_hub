@@ -44,14 +44,6 @@
   - `material_design.md` - スライドを作成する際のデザイン
   - `search_info.md` - AIツール情報収集エージェントプロンプト
 
-## リサーチルール
-
-ユーザーからAIツールのリサーチを依頼された場合：
-
-1. [`agent_docs/search_info.md`](agent_docs/search_info.md) に従って情報収集を行う
-2. リサーチ結果は `リサーチ済み情報/` フォルダにMDファイルとして保存する
-3. ファイル命名規則: `YYYY-MM-DD_ツール名.md`
-
 ## 台本作成ルール
 
 ### ファイル形式
@@ -76,3 +68,11 @@
 | **ユースケース系** | 特定のAIツールを使った実践的な活用方法を紹介 | NotebookLMでカタログ検索、ChatGPTで議事録作成 | [`agent_docs/usecase_method.md`](agent_docs/usecase_method.md) |
 | **概念系** | AIの基礎知識や考え方、業界動向などを解説 | 生成AIとは何か、プロンプトの基本 | [`agent_docs/general_method.md`](agent_docs/general_method.md) |
 | **ツール解説** | AIツールの基本的な使い方を解説 | ChatGPTの始め方、Geminiの使い方 | [`agent_docs/tool_howto.md`](agent_docs/tool_howto.md) |
+
+## リサーチルール
+
+ユーザーからAIツールのリサーチを依頼された場合：
+
+1. [`agent_docs/search_info.md`](agent_docs/search_info.md) に従って情報収集を行う
+2. リサーチ結果は `リサーチ済み情報/` フォルダにMDファイルとして保存する
+3. ファイル命名規則: `YYYY-MM-DD_ツール名.md`
