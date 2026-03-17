@@ -253,8 +253,10 @@ def extract_slides_from_reading_script(markdown_text: str) -> list[dict]:
         # ## スライドN: タイトル の見出し行を除去
         text = re.sub(r'^##\s*スライド\d+[：:].+$', '', text, flags=re.MULTILINE)
 
-        # 【事例N】などのサブ見出しも除去
-        text = re.sub(r'^【[^】]+】.+$', '', text, flags=re.MULTILINE)
+        # 【事例N】などのサブ見出し行を除去
+        text = re.sub(r'^【事例[^】]*】.+$', '', text, flags=re.MULTILINE)
+        # 【スタート】【終わり】マーカーのみ除去（後続テキストは残す）
+        text = re.sub(r'【(スタート|終わり)】', '', text)
 
         # ①②③などの番号付き見出しの行頭記号を除去（テキストは残す）
         text = re.sub(r'^[①②③④⑤⑥⑦⑧⑨⑩]\s*', '', text, flags=re.MULTILINE)

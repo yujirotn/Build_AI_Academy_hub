@@ -16,6 +16,11 @@
     python generate_audio.py --per-slide
     python generate_audio.py --per-slide "path/to/【読み上げ用】〇〇.md"
     python generate_audio.py --per-slide --dry-run
+
+    # 特定のスライドのみ再生成
+    python generate_audio.py --per-slide --slide 1
+    python generate_audio.py --per-slide --slide 1 --slide 3  # 複数指定可
+    python generate_audio.py --per-slide --slide 1 "path/to/【読み上げ用】〇〇.md"
 """
 import argparse
 import os
@@ -203,6 +208,13 @@ def parse_arguments() -> argparse.Namespace:
         help="【読み上げ用】ファイルをスライドごとに分割して音声生成"
     )
 
+    parser.add_argument(
+        "--slide",
+        type=int,
+        action="append",
+        help="特定のスライド番号のみ生成（--per-slideと併用、複数指定可）例: --slide 1 --slide 3"
+    )
+
     return parser.parse_args()
 
 
@@ -335,6 +347,15 @@ def generate_per_slide_audio(
     for slide in slides:
         preview = slide['text'][:30] + "..." if len(slide['text']) > 30 else slide['text']
         print(f"    スライド{slide['number']:02d}: {slide['title']} ({len(slide['text'])}文字)")
+
+    # 特定スライドのみフィルタリング
+    if args.slide:
+        target_slides = [s for s in slides if s['number'] in args.slide]
+        if not target_slides:
+            print(f"エラー: 指定されたスライド番号 {args.slide} が見つかりません。")
+            sys.exit(1)
+        slides = target_slides
+        print(f"\n  → スライド {args.slide} のみ生成します")
 
     # ドライランの場合はここで終了
     if args.dry_run:

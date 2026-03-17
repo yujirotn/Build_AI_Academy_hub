@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "title": "生成AIとは何か",
+    "description": "生成AIとは何か - Build AI Academy",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "totalFrames": 18784,
+    "totalDurationSec": 626.1333333333333,
+    "assetsPath": "public/生成AIとは何か/資料",
+    "audioPath": "public/生成AIとは何か/音声/【音声】2026-03-01_概念系_生成AIとは何か"
+  },
+  "style": {
+    "subtitle": {
+      "fontFamily": "Noto Sans JP",
+      "fontSize": 43,
+      "fontWeight": "bold",
+      "color": "#FFFFFF",
+      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+      "padding": 16,
+      "borderRadius": 8,
+      "position": "bottom",
+      "marginBottom": 10,
+      "maxWidth": 1600
+    },
+    "image": {
+      "fit": "contain",
+      "backgroundColor": "#092949"
+    },
+    "transition": {
+      "type": "fade",
+      "durationFrames": 15
+    },
+    "audio": {
+      "volume": 1,
+      "fadeInFrames": 5,
+      "fadeOutFrames": 5
+    }
+  },
+  "slides": [
+    {
+      "id": 1,
+      "image": "1.png",
+      "audio": "スライド01_タイトル.mp3",
+      "subtitles": [
+        {
+          "text": "こんにちは、Build AI Academyの丹野です。",
+          "startMs": 0,
+          "endMs": 4004
+        },
+        {
+          "text": "今回のテーマは「生成AIとは何か」です。",
+          "startMs": 4004,
+          "endMs": 6766
+        }
+      ],
+      "durationSec": 6.77,
+      "durationFrames": 203,
+      "startFrame": 0,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 2,
+      "image": "2.png",
+      "audio": "スライド02_今日のテーマ.mp3",
+      "subtitles": [
+        {
+          "text": "みなさん、最近「ChatGPT」とか「AI」という言葉、",
+          "startMs": 0,
+          "endMs": 3855
+        },
+        {
+          "text": "テレビやネットで見ない日はないですよね。",
+          "startMs": 3855,
+          "endMs": 6609
+        },
+        {
+          "text": "でも、「結局AIって何なの？",
+          "startMs": 6609,
+          "endMs": 8536
+        },
+        {
+          "text": "」「自分の仕事に関係あるの？",
+          "startMs": 8536,
+          "endMs": 10464
+        },
+        {
+          "text": "」と聞かれたら、ちょっと困りませんか。",
+          "startMs": 10464,
+          "endMs": 13080
+        },
+        {
+          "text": "今日は、そのモヤモヤをすっきり解消します。",
+          "startMs": 13080,
+          "endMs": 15971
+        },
+        {
+          "text": "難しい専門用語は使いません。",
+          "startMs": 15971,
+          "endMs": 17899
+        },
+        {
+          "text": "「AIってこういうことだったのか」「これなら自分にも使えそうだ」",
+          "startMs": 17899,
+          "endMs": 22305
+        },
+        {
+          "text": "と思っていただける内容にしていきます。",
+          "startMs": 22305,
+          "endMs": 24921
+        }
+      ],
+      "durationSec": 24.92,
+      "durationFrames": 748,
+      "startFrame": 263,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 3,
+      "image": "3.png",
+      "audio": "スライド03_AIとは？（料理の例え①）.mp3",
+      "subtitles": [
+        {
+          "text": "まず、そもそもAIって何なのか、というところからお話しします。",
+          "startMs": 0,
+          "endMs": 4218
+        },
+        {
+          "text": "「AI」って聞くと、映画に出てくるロボットとか、",
+          "startMs": 4218,
+          "endMs": 7484
+        },
+        {
+          "text": "なんだかすごいコンピュータとか、",
+          "startMs": 7484,
+          "endMs": 9661
+        },
+        {
+          "text": "そういうイメージを持つ方もいらっしゃるかもしれません。",
+          "startMs": 9661,
+          "endMs": 13334
+        },
+        {
+          "text": "でも、実はもっとシンプルなんです。",
+          "startMs": 13334,
+          "endMs": 15647
+        },
+        {
+          "text": "AIというのは、ひと言で言うと「たくさんの情報を集めて、",
+          "startMs": 15647,
+          "endMs": 19457
+        },
+        {
+          "text": "そこからパターンを見出して、回答してくれる仕組み」なんです。",
+          "startMs": 19457,
+          "endMs": 23539
+        },
+        {
+          "text": "これだけだとちょっとピンとこないと思うので、料理に例えてみますね。",
+          "startMs": 23539,
+          "endMs": 28029
+        }
+      ],
+      "durationSec": 28.03,
+      "durationFrames": 841,
+      "startFrame": 1071,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 4,
+      "image": "4.png",
+      "audio": "スライド04_AIとは？（料理の例え②）.mp3",
+      "subtitles": [
+        {
+          "text": "みなさん、料理って最初はレシピ本を見ながら作りますよね。",
+          "startMs": 0,
+          "endMs": 3979
+        },
+        {
+          "text": "何回も作っていくうちに、「この材料とこの調味料の組み合わせはおいしい」",
+          "startMs": 3979,
+          "endMs": 8953
+        },
+        {
+          "text": "とか、「この火加減がちょうどいい」とか、",
+          "startMs": 8953,
+          "endMs": 11795
+        },
+        {
+          "text": "だんだんパターンが分かってくる。",
+          "startMs": 11795,
+          "endMs": 14069
+        },
+        {
+          "text": "そのうちレシピを見なくても、冷蔵庫にある材料を見ただけで「あ、",
+          "startMs": 14069,
+          "endMs": 18475
+        },
+        {
+          "text": "これとこれで何か作れるな」と分かるようになる。",
+          "startMs": 18475,
+          "endMs": 21743
+        },
+        {
+          "text": "AIがやっていることは、これと同じなんです。",
+          "startMs": 21743,
+          "endMs": 24870
+        },
+        {
+          "text": "ただし、人間が一生かかっても読みきれないくらいの、",
+          "startMs": 24870,
+          "endMs": 28423
+        },
+        {
+          "text": "インターネット上の膨大な文章を読み込んでいる。",
+          "startMs": 28423,
+          "endMs": 31691
+        },
+        {
+          "text": "何億ものレシピを覚えた超ベテランの料理人みたいなものですね。",
+          "startMs": 31691,
+          "endMs": 35955
+        },
+        {
+          "text": "「こういう材料があるんだけど、何が作れる？",
+          "startMs": 35955,
+          "endMs": 38939
+        },
+        {
+          "text": "」と聞けば、パッと答えを出してくれる。",
+          "startMs": 38939,
+          "endMs": 41639
+        }
+      ],
+      "durationSec": 41.64,
+      "durationFrames": 1250,
+      "startFrame": 1972,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 5,
+      "image": "5.png",
+      "audio": "スライド05_AIの仕組み.mp3",
+      "subtitles": [
+        {
+          "text": "ここで大事なのは、AIは「考えている」わけではなくて、",
+          "startMs": 0,
+          "endMs": 3997
+        },
+        {
+          "text": "「学習した知識をもとに、最適な答えを組み立てている」ということです。",
+          "startMs": 3997,
+          "endMs": 9030
+        },
+        {
+          "text": "人間のように「うーん、どうしようかな」",
+          "startMs": 9030,
+          "endMs": 11842
+        },
+        {
+          "text": "と悩んでいるわけじゃないんですね。",
+          "startMs": 11842,
+          "endMs": 14359
+        },
+        {
+          "text": "膨大なデータから学んだ言葉のつながりを使って、「この質問に対しては、",
+          "startMs": 14359,
+          "endMs": 19392
+        },
+        {
+          "text": "次にこういう言葉が来るのが最も自然だろう」",
+          "startMs": 19392,
+          "endMs": 22500
+        },
+        {
+          "text": "と一語一語つないで文章を作っているんです。",
+          "startMs": 22500,
+          "endMs": 25609
+        },
+        {
+          "text": "だから、AIに何かを質問すると、",
+          "startMs": 25609,
+          "endMs": 27977
+        },
+        {
+          "text": "まるで人間と会話しているかのように自然な答えが返ってくるんですが、",
+          "startMs": 27977,
+          "endMs": 32862
+        },
+        {
+          "text": "その裏側では、",
+          "startMs": 32862,
+          "endMs": 33898
+        },
+        {
+          "text": "学習済みの膨大な知識から最適な言葉を選び続けているんです。",
+          "startMs": 33898,
+          "endMs": 38191
+        }
+      ],
+      "durationSec": 38.19,
+      "durationFrames": 1146,
+      "startFrame": 3282,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 6,
+      "image": "6.png",
+      "audio": "スライド06_「生成AI」とは.mp3",
+      "subtitles": [
+        {
+          "text": "さて、ここからが今日のメインテーマです。",
+          "startMs": 0,
+          "endMs": 3085
+        },
+        {
+          "text": "「生成AI」って、普通のAIと何が違うのか。",
+          "startMs": 3085,
+          "endMs": 6479
+        },
+        {
+          "text": "みなさん、スマホで何か調べものをするとき、",
+          "startMs": 6479,
+          "endMs": 9718
+        },
+        {
+          "text": "Google検索を使いますよね。",
+          "startMs": 9718,
+          "endMs": 12186
+        },
+        {
+          "text": "検索って、インターネット上にすでにある情報の中から、",
+          "startMs": 12186,
+          "endMs": 16196
+        },
+        {
+          "text": "合いそうなものを探してきてくれる仕組みです。",
+          "startMs": 16196,
+          "endMs": 19590
+        },
+        {
+          "text": "つまり「答えを探す」んです。",
+          "startMs": 19590,
+          "endMs": 21749
+        },
+        {
+          "text": "生成AIは違います。",
+          "startMs": 21749,
+          "endMs": 23292
+        },
+        {
+          "text": "生成AIは「答えを作る」んです。",
+          "startMs": 23292,
+          "endMs": 25760
+        },
+        {
+          "text": "たとえば、「自社の家の良さを、30代の共働き夫婦に伝える文章を書いて」",
+          "startMs": 25760,
+          "endMs": 31159
+        },
+        {
+          "text": "とお願いしたとします。",
+          "startMs": 31159,
+          "endMs": 32855
+        },
+        {
+          "text": "Google検索なら、",
+          "startMs": 32855,
+          "endMs": 34552
+        },
+        {
+          "text": "すでにどこかのサイトに書いてある文章を見つけてくるだけです。",
+          "startMs": 34552,
+          "endMs": 39180
+        },
+        {
+          "text": "でも生成AIは、みなさんのリクエストに合わせて、",
+          "startMs": 39180,
+          "endMs": 42882
+        },
+        {
+          "text": "その場で新しい文章を一から作ってくれるんです。",
+          "startMs": 42882,
+          "endMs": 46429
+        },
+        {
+          "text": "これが「生成」という名前の由来です。",
+          "startMs": 46429,
+          "endMs": 49206
+        },
+        {
+          "text": "すでにある情報をコピーしてくるんじゃなくて、新しく「生み出す」。",
+          "startMs": 49206,
+          "endMs": 54142
+        },
+        {
+          "text": "ここがものすごく画期的なんですね。",
+          "startMs": 54142,
+          "endMs": 56764
+        }
+      ],
+      "durationSec": 56.76,
+      "durationFrames": 1703,
+      "startFrame": 4488,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 7,
+      "image": "7.png",
+      "audio": "スライド07_検索と生成AIの境界.mp3",
+      "subtitles": [
+        {
+          "text": "ちなみに、最近のGoogle検索もAIの技術を取り入れて、",
+          "startMs": 0,
+          "endMs": 4194
+        },
+        {
+          "text": "検索結果をAIがまとめて表示してくれるようになってきました。",
+          "startMs": 4194,
+          "endMs": 8532
+        },
+        {
+          "text": "検索と生成AIの境界線は、だんだん曖昧になりつつあります。",
+          "startMs": 8532,
+          "endMs": 12726
+        },
+        {
+          "text": "ただ、基本的な考え方として「既存の情報を探してくる」",
+          "startMs": 12726,
+          "endMs": 16486
+        },
+        {
+          "text": "のと「新しく文章を作り出す」のは違うもの、",
+          "startMs": 16486,
+          "endMs": 19523
+        },
+        {
+          "text": "という理解は押さえておいてください。",
+          "startMs": 19523,
+          "endMs": 22126
+        }
+      ],
+      "durationSec": 22.13,
+      "durationFrames": 664,
+      "startFrame": 6251,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 8,
+      "image": "8.png",
+      "audio": "スライド08_主要な生成AIサービス.mp3",
+      "subtitles": [
+        {
+          "text": "いま世の中でよく使われている生成AIのサービスをいくつか紹介します。",
+          "startMs": 0,
+          "endMs": 5051
+        },
+        {
+          "text": "まず「ChatGPT」、これはいちばん有名ですね。",
+          "startMs": 5051,
+          "endMs": 8766
+        },
+        {
+          "text": "OpenAIという会社が作っています。",
+          "startMs": 8766,
+          "endMs": 11589
+        },
+        {
+          "text": "次に「Gemini」、これはGoogleが作っています。",
+          "startMs": 11589,
+          "endMs": 15749
+        },
+        {
+          "text": "そして「Claude」、これはAnthropic社が作っています。",
+          "startMs": 15749,
+          "endMs": 20651
+        },
+        {
+          "text": "他にもたくさんありますが、まずはこの3つを覚えておけば大丈夫です。",
+          "startMs": 20651,
+          "endMs": 25554
+        },
+        {
+          "text": "どれも、文章で話しかけると、文章で答えてくれる。",
+          "startMs": 25554,
+          "endMs": 29120
+        },
+        {
+          "text": "しかもその答えが、",
+          "startMs": 29120,
+          "endMs": 30457
+        },
+        {
+          "text": "ちゃんと文脈を理解した自然な日本語で返ってくるんです。",
+          "startMs": 30457,
+          "endMs": 34469
+        },
+        {
+          "text": "一昔前のAIとはまったく別物だと思ってください。",
+          "startMs": 34469,
+          "endMs": 38034
+        }
+      ],
+      "durationSec": 38.03,
+      "durationFrames": 1142,
+      "startFrame": 6975,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 9,
+      "image": "9.png",
+      "audio": "スライド09_一昔前のAIとの違い.mp3",
+      "subtitles": [
+        {
+          "text": "ちなみに、ほんの数年前までの「AIっぽいもの」",
+          "startMs": 0,
+          "endMs": 3094
+        },
+        {
+          "text": "との違いも整理しておきますね。",
+          "startMs": 3094,
+          "endMs": 5112
+        },
+        {
+          "text": "たとえばスマホの音声アシスタント、「OK Google」",
+          "startMs": 5112,
+          "endMs": 8879
+        },
+        {
+          "text": "とか「Hey Siri」ってありますよね。",
+          "startMs": 8879,
+          "endMs": 11704
+        },
+        {
+          "text": "以前のこうしたアシスタントは、決められた命令に対応する仕組みでした。",
+          "startMs": 11704,
+          "endMs": 16278
+        },
+        {
+          "text": "「明日の天気は？",
+          "startMs": 16278,
+          "endMs": 17354
+        },
+        {
+          "text": "」には答えられるけど、「うちのブログ記事を書いて」とは言えなかった。",
+          "startMs": 17354,
+          "endMs": 21928
+        },
+        {
+          "text": "でも最近は、",
+          "startMs": 21928,
+          "endMs": 22735
+        },
+        {
+          "text": "こうした音声アシスタントにも生成AIの技術が組み込まれはじめています。",
+          "startMs": 22735,
+          "endMs": 27443
+        },
+        {
+          "text": "つまり、スマホの中にも生成AIがどんどん入ってきているんです。",
+          "startMs": 27443,
+          "endMs": 31614
+        },
+        {
+          "text": "今日お話しするChatGPTやGeminiは、",
+          "startMs": 31614,
+          "endMs": 34708
+        },
+        {
+          "text": "その生成AIの力をフルに使えるサービスだと思ってください。",
+          "startMs": 34708,
+          "endMs": 38609
+        }
+      ],
+      "durationSec": 38.61,
+      "durationFrames": 1159,
+      "startFrame": 8177,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 10,
+      "image": "10.png",
+      "audio": "スライド10_生成AIが得意なこと①②.mp3",
+      "subtitles": [
+        {
+          "text": "じゃあ、生成AIは何でもできるのかというと、そうではないんですね。",
+          "startMs": 0,
+          "endMs": 5085
+        },
+        {
+          "text": "ここは正直にお伝えしておきたいところです。",
+          "startMs": 5085,
+          "endMs": 8321
+        },
+        {
+          "text": "まず、得意なことから。",
+          "startMs": 8321,
+          "endMs": 10016
+        },
+        {
+          "text": "生成AIが得意なのは、大きく4つあります。",
+          "startMs": 10016,
+          "endMs": 13252
+        },
+        {
+          "text": "1つ目、文章を作ること。",
+          "startMs": 13252,
+          "endMs": 15101
+        },
+        {
+          "text": "提案書、メール、ブログ記事、SNSの投稿文、なんでも作ってくれます。",
+          "startMs": 15101,
+          "endMs": 20341
+        },
+        {
+          "text": "2つ目、長い文章を要約すること。",
+          "startMs": 20341,
+          "endMs": 22806
+        },
+        {
+          "text": "たとえば、10ページある仕様書を「ポイントを3つにまとめて」",
+          "startMs": 22806,
+          "endMs": 27429
+        },
+        {
+          "text": "とお願いすれば、さっとまとめてくれます。",
+          "startMs": 27429,
+          "endMs": 30511
+        }
+      ],
+      "durationSec": 30.51,
+      "durationFrames": 916,
+      "startFrame": 9396,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 11,
+      "image": "11.png",
+      "audio": "スライド11_生成AIが得意なこと③④.mp3",
+      "subtitles": [
+        {
+          "text": "3つ目、翻訳。",
+          "startMs": 0,
+          "endMs": 1067
+        },
+        {
+          "text": "英語のカタログや技術資料も、自然な日本語に直してくれます。",
+          "startMs": 1067,
+          "endMs": 5487
+        },
+        {
+          "text": "4つ目、アイデア出し。",
+          "startMs": 5487,
+          "endMs": 7164
+        },
+        {
+          "text": "「来月の完成見学会のキャッチコピーを10案出して」なんてお願いすると、",
+          "startMs": 7164,
+          "endMs": 12499
+        },
+        {
+          "text": "すぐに出てきます。",
+          "startMs": 12499,
+          "endMs": 13871
+        }
+      ],
+      "durationSec": 13.87,
+      "durationFrames": 417,
+      "startFrame": 10372,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 12,
+      "image": "12.png",
+      "audio": "スライド12_生成AIが苦手なこと.mp3",
+      "subtitles": [
+        {
+          "text": "一方で、苦手なことや、できないこともあります。",
+          "startMs": 0,
+          "endMs": 3414
+        },
+        {
+          "text": "まず、事実の確認です。",
+          "startMs": 3414,
+          "endMs": 5047
+        },
+        {
+          "text": "AIは学習したデータから「それっぽい答え」を組み立てるので、",
+          "startMs": 5047,
+          "endMs": 9500
+        },
+        {
+          "text": "たまに間違ったことを自信満々に言ってしまうことがあります。",
+          "startMs": 9500,
+          "endMs": 13805
+        },
+        {
+          "text": "これを「ハルシネーション」と言います。",
+          "startMs": 13805,
+          "endMs": 16625
+        },
+        {
+          "text": "AIが自信満々に答えているのに、実は事実と違っている、という現象です。",
+          "startMs": 16625,
+          "endMs": 21820
+        },
+        {
+          "text": "AIは意図的にウソをついているわけではなくて、",
+          "startMs": 21820,
+          "endMs": 25234
+        },
+        {
+          "text": "学習したデータから誤った推測をしてしまうんですね。",
+          "startMs": 25234,
+          "endMs": 28945
+        },
+        {
+          "text": "だから、AIが出してきた情報をそのまま鵜呑みにしてはいけません。",
+          "startMs": 28945,
+          "endMs": 33695
+        },
+        {
+          "text": "大事な数字や事実は、必ず自分で確認してください。",
+          "startMs": 33695,
+          "endMs": 37258
+        },
+        {
+          "text": "それから、人間のような感情や実体験を持っていません。",
+          "startMs": 37258,
+          "endMs": 41117
+        },
+        {
+          "text": "最近のAIは相手の気持ちに寄り添うような文章を作ることもできるようにな",
+          "startMs": 41117,
+          "endMs": 46312
+        },
+        {
+          "text": "ってきていますが、本当に感情を感じているわけではないんです。",
+          "startMs": 46312,
+          "endMs": 50765
+        },
+        {
+          "text": "「このお客さま、ちょっと不安そうだったから、",
+          "startMs": 50765,
+          "endMs": 54031
+        },
+        {
+          "text": "次回の打ち合わせではこういう話し方をしよう」みたいな、",
+          "startMs": 54031,
+          "endMs": 58039
+        },
+        {
+          "text": "現場で肌で感じた直感に基づく判断は、みなさんにしかできないことです。",
+          "startMs": 58039,
+          "endMs": 63086
+        }
+      ],
+      "durationSec": 63.09,
+      "durationFrames": 1893,
+      "startFrame": 10849,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 13,
+      "image": "13.png",
+      "audio": "スライド13_万能ではないが最強の道具.mp3",
+      "subtitles": [
+        {
+          "text": "つまり、生成AIは「万能ではないけれど、使いこなせば最強の道具になる」",
+          "startMs": 0,
+          "endMs": 4892
+        },
+        {
+          "text": "ということです。",
+          "startMs": 4892,
+          "endMs": 6010
+        },
+        {
+          "text": "ドリルがあっても、大工さんの腕が必要なのと同じですね。",
+          "startMs": 6010,
+          "endMs": 9784
+        },
+        {
+          "text": "道具は道具であって、使い手であるみなさんの知識や判断力があってこそ、",
+          "startMs": 9784,
+          "endMs": 14536
+        },
+        {
+          "text": "本当の力を発揮するんです。",
+          "startMs": 14536,
+          "endMs": 16353
+        }
+      ],
+      "durationSec": 16.35,
+      "durationFrames": 491,
+      "startFrame": 12802,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 14,
+      "image": "14.png",
+      "audio": "スライド14_住宅会社の仕事がこう変わる.mp3",
+      "subtitles": [
+        {
+          "text": "ここまでの話を聞いて、「理屈は分かったけど、",
+          "startMs": 0,
+          "endMs": 3294
+        },
+        {
+          "text": "実際に自分の仕事でどう使えるの？",
+          "startMs": 3294,
+          "endMs": 5690
+        },
+        {
+          "text": "」と思った方もいらっしゃると思います。",
+          "startMs": 5690,
+          "endMs": 8535
+        },
+        {
+          "text": "ここからは、",
+          "startMs": 8535,
+          "endMs": 9433
+        },
+        {
+          "text": "住宅会社の日常業務で生成AIが活躍するシーンを具体的にご紹介します。",
+          "startMs": 9433,
+          "endMs": 14524
+        }
+      ],
+      "durationSec": 14.52,
+      "durationFrames": 436,
+      "startFrame": 13353,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 15,
+      "image": "15.png",
+      "audio": "スライド15_活用シーン①②.mp3",
+      "subtitles": [
+        {
+          "text": "まず1つ目、提案書の作成です。",
+          "startMs": 0,
+          "endMs": 2276
+        },
+        {
+          "text": "たとえば、「35歳の共働きご夫婦で、お子さんが2人。",
+          "startMs": 2276,
+          "endMs": 6220
+        },
+        {
+          "text": "光熱費を抑えたいと言っている。",
+          "startMs": 6220,
+          "endMs": 8496
+        },
+        {
+          "text": "自社の住宅性能の高さを伝えたい」とAIに伝えると、",
+          "startMs": 8496,
+          "endMs": 12289
+        },
+        {
+          "text": "お客さまに合わせた提案書のたたき台を数分で作ってくれます。",
+          "startMs": 12289,
+          "endMs": 16689
+        },
+        {
+          "text": "あとはみなさんがプロの目でチェックして、",
+          "startMs": 16689,
+          "endMs": 19723
+        },
+        {
+          "text": "具体的な仕様や金額を加えれば完成です。",
+          "startMs": 19723,
+          "endMs": 22606
+        },
+        {
+          "text": "ゼロから書くよりずっと早いですよね。",
+          "startMs": 22606,
+          "endMs": 25337
+        },
+        {
+          "text": "2つ目、ブログやSNSの投稿文です。",
+          "startMs": 25337,
+          "endMs": 28068
+        },
+        {
+          "text": "「施工事例のブログ記事を書きたいけど、文章を考えるのが苦手で」",
+          "startMs": 28068,
+          "endMs": 32771
+        },
+        {
+          "text": "という方、多いんじゃないでしょうか。",
+          "startMs": 32771,
+          "endMs": 35502
+        },
+        {
+          "text": "現場の写真の説明や、お客さまの声をAIに伝えれば、",
+          "startMs": 35502,
+          "endMs": 39295
+        },
+        {
+          "text": "読みやすい記事にまとめてくれます。",
+          "startMs": 39295,
+          "endMs": 41874
+        }
+      ],
+      "durationSec": 41.87,
+      "durationFrames": 1257,
+      "startFrame": 13849,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 16,
+      "image": "16.png",
+      "audio": "スライド16_活用シーン③④.mp3",
+      "subtitles": [
+        {
+          "text": "3つ目、打ち合わせの議事録です。",
+          "startMs": 0,
+          "endMs": 2358
+        },
+        {
+          "text": "お客さまとの打ち合わせ内容をAIに入力すると、",
+          "startMs": 2358,
+          "endMs": 5748
+        },
+        {
+          "text": "要点を整理して議事録にしてくれます。",
+          "startMs": 5748,
+          "endMs": 8400
+        },
+        {
+          "text": "「次にやること」リストまで作ってくれるので、",
+          "startMs": 8400,
+          "endMs": 11643
+        },
+        {
+          "text": "打ち合わせ後の事務作業がぐっと減ります。",
+          "startMs": 11643,
+          "endMs": 14590
+        },
+        {
+          "text": "4つ目、お客さまへの対応メールです。",
+          "startMs": 14590,
+          "endMs": 17243
+        },
+        {
+          "text": "お礼メール、進捗報告、アフターフォローの連絡など、「何を書こうかな」",
+          "startMs": 17243,
+          "endMs": 22254
+        },
+        {
+          "text": "と悩む時間がなくなります。",
+          "startMs": 22254,
+          "endMs": 24170
+        },
+        {
+          "text": "状況を伝えれば、丁寧な文面を用意してくれます。",
+          "startMs": 24170,
+          "endMs": 27559
+        }
+      ],
+      "durationSec": 27.56,
+      "durationFrames": 827,
+      "startFrame": 15166,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 17,
+      "image": "17.png",
+      "audio": "スライド17_活用シーン⑤⑥.mp3",
+      "subtitles": [
+        {
+          "text": "5つ目、競合との比較資料です。",
+          "startMs": 0,
+          "endMs": 2353
+        },
+        {
+          "text": "「自社の住宅と一般的な在来工法の断熱性能・気密性能を比較する資料を作っ",
+          "startMs": 2353,
+          "endMs": 7843
+        },
+        {
+          "text": "て」とお願いすると、分かりやすい比較表のたたき台が出てきます。",
+          "startMs": 7843,
+          "endMs": 12706
+        },
+        {
+          "text": "6つ目、これは少し意外かもしれませんが、社内の教育にも使えます。",
+          "startMs": 12706,
+          "endMs": 17726
+        },
+        {
+          "text": "たとえば、新人スタッフが自社の住宅性能を覚えるとき、",
+          "startMs": 17726,
+          "endMs": 21805
+        },
+        {
+          "text": "AIに「お客さまに聞かれそうな質問を10個出して」と頼めば、",
+          "startMs": 21805,
+          "endMs": 26511
+        },
+        {
+          "text": "ロールプレイングの練習相手にもなってくれるんです。",
+          "startMs": 26511,
+          "endMs": 30433
+        }
+      ],
+      "durationSec": 30.43,
+      "durationFrames": 913,
+      "startFrame": 16053,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 18,
+      "image": "18.png",
+      "audio": "スライド18_活用シーンまとめ.mp3",
+      "subtitles": [
+        {
+          "text": "こうしたシーンは、他の講座でも詳しく取り上げていきます。",
+          "startMs": 0,
+          "endMs": 3559
+        },
+        {
+          "text": "今日は「こんなことにも使えるんだ」",
+          "startMs": 3559,
+          "endMs": 5720
+        },
+        {
+          "text": "というイメージを持っていただければ十分です。",
+          "startMs": 5720,
+          "endMs": 8516
+        }
+      ],
+      "durationSec": 8.52,
+      "durationFrames": 256,
+      "startFrame": 17026,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 19,
+      "image": "19.png",
+      "audio": "スライド19_まとめ.mp3",
+      "subtitles": [
+        {
+          "text": "さて、今日の内容をまとめます。",
+          "startMs": 0,
+          "endMs": 2426
+        },
+        {
+          "text": "ポイントは3つです。",
+          "startMs": 2426,
+          "endMs": 4043
+        },
+        {
+          "text": "1つ目、AIは「たくさんの情報からパターンを見出して回答する仕組み」",
+          "startMs": 4043,
+          "endMs": 9541
+        },
+        {
+          "text": "です。",
+          "startMs": 9541,
+          "endMs": 10026
+        },
+        {
+          "text": "難しいものではなく、",
+          "startMs": 10026,
+          "endMs": 11644
+        },
+        {
+          "text": "膨大なレシピを覚えたベテラン料理人のようなものです。",
+          "startMs": 11644,
+          "endMs": 15848
+        },
+        {
+          "text": "2つ目、生成AIは「答えを探す」のではなく「答えを作る」。",
+          "startMs": 15848,
+          "endMs": 20538
+        },
+        {
+          "text": "ここが従来のAIや検索エンジンとの大きな違いです。",
+          "startMs": 20538,
+          "endMs": 24581
+        },
+        {
+          "text": "3つ目、万能ではないけれど、提案書、ブログ、議事録、メールなど、",
+          "startMs": 24581,
+          "endMs": 29756
+        },
+        {
+          "text": "住宅会社の日常業務のあらゆる場面で強力な味方になってくれます。",
+          "startMs": 29756,
+          "endMs": 34769
+        }
+      ],
+      "durationSec": 34.77,
+      "durationFrames": 1044,
+      "startFrame": 17342,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 20,
+      "image": "20.png",
+      "audio": "スライド20_クロージング.mp3",
+      "subtitles": [
+        {
+          "text": "「自分にも使えそうだな」と、少しでも感じていただけたなら嬉しいです。",
+          "startMs": 0,
+          "endMs": 4593
+        },
+        {
+          "text": "大丈夫です、誰でも使えます。",
+          "startMs": 4593,
+          "endMs": 6484
+        },
+        {
+          "text": "それでは次の講座で会いましょう。",
+          "startMs": 6484,
+          "endMs": 8645
+        },
+        {
+          "text": "ありがとうございました。",
+          "startMs": 8645,
+          "endMs": 10266
+        }
+      ],
+      "durationSec": 10.27,
+      "durationFrames": 308,
+      "startFrame": 18446,
+      "gapAfterFrames": 0
+    }
+  ]
+}

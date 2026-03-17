@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "title": "Geminiで営業ロープレを強化する方法",
+    "description": "AIを最強の営業コーチに変える方法を解説。営業ロープレの活用編①",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "totalFrames": 11691,
+    "totalDurationSec": 389.7,
+    "assetsPath": "public/Geminiで営業ロープレを強化する方法/スライド画像",
+    "audioPath": "public/Geminiで営業ロープレを強化する方法/【音声】2026-01-09_ユースケース_Geminiで営業ロープレを強化する方法"
+  },
+  "style": {
+    "subtitle": {
+      "fontFamily": "Noto Sans JP",
+      "fontSize": 43,
+      "fontWeight": "bold",
+      "color": "#FFFFFF",
+      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+      "padding": 16,
+      "borderRadius": 8,
+      "position": "bottom",
+      "marginBottom": 10,
+      "maxWidth": 1600
+    },
+    "image": {
+      "fit": "contain",
+      "backgroundColor": "#092949"
+    },
+    "transition": {
+      "type": "none",
+      "durationFrames": 0
+    },
+    "audio": {
+      "volume": 1.0,
+      "fadeInFrames": 5,
+      "fadeOutFrames": 5
+    }
+  },
+  "slides": [
+    {
+      "id": 1,
+      "image": "Slide_1.png",
+      "audio": "スライド01_タイトル.mp3",
+      "subtitles": [
+        { "text": "今日のテーマは、AIを最強の営業コーチに変える方法です。", "startMs": 0, "endMs": 4560 }
+      ],
+      "durationSec": 4.60,
+      "durationFrames": 138,
+      "startFrame": 0,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 2,
+      "image": "Slide_2.png",
+      "audio": "スライド02_この講座でわかること.mp3",
+      "subtitles": [
+        { "text": "今回は営業ロープレの活用編①ということで、", "startMs": 0, "endMs": 4060 },
+        { "text": "営業をもっと強くしたい方、", "startMs": 4060, "endMs": 6420 },
+        { "text": "部下にしっかりロープレをさせたい方に、", "startMs": 6680, "endMs": 8420 },
+        { "text": "参考になる内容をお届けします。", "startMs": 8420, "endMs": 10600 }
+      ],
+      "durationSec": 10.76,
+      "durationFrames": 323,
+      "startFrame": 198,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 3,
+      "image": "Slide_3.png",
+      "audio": "スライド03_こんな経験ありませんか？.mp3",
+      "subtitles": [
+        { "text": "皆さん、こんな経験ありませんか？", "startMs": 0, "endMs": 2420 },
+        { "text": "先輩とロープレの練習しても、なんだか手応えがない。", "startMs": 2620, "endMs": 6120 },
+        { "text": "相手の出方がなんとなく読めてしまって、", "startMs": 6120, "endMs": 8580 },
+        { "text": "「これくらい話せば大丈夫かな」と、どこか気が緩んでしまう。", "startMs": 8580, "endMs": 13080 },
+        { "text": "あるいは、「もっと厳しい練習がしたいけど、", "startMs": 13080, "endMs": 15500 },
+        { "text": "毎回先輩の時間をもらうのも申し訳ない」", "startMs": 15500, "endMs": 17800 },
+        { "text": "と感じたことはないでしょうか。", "startMs": 17800, "endMs": 19620 }
+      ],
+      "durationSec": 19.64,
+      "durationFrames": 589,
+      "startFrame": 581,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 4,
+      "image": "Slide_4.png",
+      "audio": "スライド04_「ぬるま湯ロープレ」の罠.mp3",
+      "subtitles": [
+        { "text": "こういった悩みの本質は、", "startMs": 0, "endMs": 1560 },
+        { "text": "ロープレが「ぬるま湯」になってしまっていることにあります。", "startMs": 1560, "endMs": 4920 },
+        { "text": "気の合う先輩との練習、いつもと同じような会話の流れ。", "startMs": 5240, "endMs": 9380 },
+        { "text": "「こう来たらこう返す」というパターンが読めてしまうと、", "startMs": 9380, "endMs": 12520 },
+        { "text": "本番のような緊張感がなくなってしまいますよね。", "startMs": 12520, "endMs": 15200 },
+        { "text": "これを「ぬるま湯ロープレ」と呼んでいます。", "startMs": 15900, "endMs": 18220 }
+      ],
+      "durationSec": 18.36,
+      "durationFrames": 551,
+      "startFrame": 1230,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 5,
+      "image": "Slide_5.png",
+      "audio": "スライド05_現場は「想定外」の連続.mp3",
+      "subtitles": [
+        { "text": "お客様は毎回違います。", "startMs": 0, "endMs": 2000 },
+        { "text": "予測不能な質問、厳しい値引き交渉、専門的な性能への疑問。", "startMs": 2000, "endMs": 7180 },
+        { "text": "現場では想定外の展開が当たり前です。", "startMs": 7180, "endMs": 10460 },
+        { "text": "でも、「ぬるま湯ロープレ」では、", "startMs": 10520, "endMs": 11960 },
+        { "text": "そういった「想定外」への対応力が磨かれません。", "startMs": 12200, "endMs": 14920 }
+      ],
+      "durationSec": 14.99,
+      "durationFrames": 450,
+      "startFrame": 1841,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 6,
+      "image": "Slide_6.png",
+      "audio": "スライド06_トップ営業の成長サイクル.mp3",
+      "subtitles": [
+        { "text": "成長が早いトップ営業マンは、", "startMs": 0, "endMs": 2240 },
+        { "text": "明確な目標設定、少し背伸びした挑戦、", "startMs": 2400, "endMs": 5540 },
+        { "text": "的確なフィードバック、そして即座の修正と再挑戦。", "startMs": 5740, "endMs": 9660 },
+        { "text": "この4つのサイクルを高速で回しています。", "startMs": 10020, "endMs": 12500 }
+      ],
+      "durationSec": 12.67,
+      "durationFrames": 380,
+      "startFrame": 2351,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 7,
+      "image": "Slide_7.png",
+      "audio": "スライド07_AIで「本気の練習」を実現.mp3",
+      "subtitles": [
+        { "text": "今日ご紹介する方法を使えば、", "startMs": 0, "endMs": 1860 },
+        { "text": "この「本気の練習」をAIと一緒に、", "startMs": 2260, "endMs": 4660 },
+        { "text": "いつでも、何度でもできるようになります。", "startMs": 4700, "endMs": 6600 }
+      ],
+      "durationSec": 6.77,
+      "durationFrames": 203,
+      "startFrame": 2791,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 8,
+      "image": "Slide_8.png",
+      "audio": "スライド08_AIロープレの3つのメリット.mp3",
+      "subtitles": [
+        { "text": "では、AIを使った営業ロープレには、", "startMs": 0, "endMs": 2060 },
+        { "text": "どんなメリットがあるのでしょうか。", "startMs": 2060, "endMs": 3680 }
+      ],
+      "durationSec": 3.71,
+      "durationFrames": 111,
+      "startFrame": 3054,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 9,
+      "image": "Slide_9.png",
+      "audio": "スライド09_メリット①24時間いつでも練習.mp3",
+      "subtitles": [
+        { "text": "1つ目は、24時間いつでも練習できること。", "startMs": 0, "endMs": 3800 },
+        { "text": "先輩の時間を気にする必要はありません。", "startMs": 4300, "endMs": 6780 },
+        { "text": "朝でも夜でも、自分のペースで何度でも練習できます。", "startMs": 6780, "endMs": 10900 },
+        { "text": "「もう1回やり直したい」と思ったら、すぐにやり直せる。", "startMs": 11200, "endMs": 14700 },
+        { "text": "これはAIならではの強みです。", "startMs": 14700, "endMs": 17060 }
+      ],
+      "durationSec": 17.16,
+      "durationFrames": 515,
+      "startFrame": 3225,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 10,
+      "image": "Slide_10.png",
+      "audio": "スライド10_メリット②手ごわい相手を設計.mp3",
+      "subtitles": [
+        { "text": "2つ目は、自分専用の「手ごわい相手」を作れること。", "startMs": 0, "endMs": 4240 },
+        { "text": "値引き交渉が苦手なら、徹底的に価格にこだわるお客様役を。", "startMs": 4300, "endMs": 8660 },
+        { "text": "専門的な質問への対応が弱いなら、", "startMs": 9720, "endMs": 12200 },
+        { "text": "細かい仕様を突いてくる勉強家のお客様役を。", "startMs": 12200, "endMs": 15200 },
+        { "text": "自分の弱点に合わせて、AIのキャラクターを自由に設定できます。", "startMs": 16240, "endMs": 19860 }
+      ],
+      "durationSec": 20.04,
+      "durationFrames": 601,
+      "startFrame": 3800,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 11,
+      "image": "Slide_11.png",
+      "audio": "スライド11_メリット③客観的なフィードバック.mp3",
+      "subtitles": [
+        { "text": "3つ目は、客観的なフィードバックがもらえること。", "startMs": 0, "endMs": 3060 },
+        { "text": "AIは気を遣いません。", "startMs": 3060, "endMs": 4760 },
+        { "text": "「ここが良かった」「ここは改善が必要」と、", "startMs": 4760, "endMs": 7200 },
+        { "text": "率直に指摘してくれます。", "startMs": 7200, "endMs": 9500 },
+        { "text": "しかも、具体的なお手本トークまで提示してくれるので、", "startMs": 9500, "endMs": 12700 },
+        { "text": "すぐに修正して再チャレンジできます。", "startMs": 12700, "endMs": 14840 },
+        { "text": "この方法は注文住宅の営業だけでなく、", "startMs": 15480, "endMs": 18460 },
+        { "text": "リフォーム営業、賃貸仲介、法人営業など、", "startMs": 18920, "endMs": 21700 },
+        { "text": "あらゆる営業シーンに応用できます。", "startMs": 22260, "endMs": 24200 }
+      ],
+      "durationSec": 24.35,
+      "durationFrames": 730,
+      "startFrame": 4461,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 12,
+      "image": "Slide_12.png",
+      "audio": "スライド12_Geminiとは.mp3",
+      "subtitles": [
+        { "text": "では、今回使用するツール", "startMs": 0, "endMs": 1620 },
+        { "text": "「Gemini（ジェミニ）」についてご説明します。", "startMs": 2220, "endMs": 4220 },
+        { "text": "GeminiはGoogleが提供するAIツールです。", "startMs": 4460, "endMs": 8180 },
+        { "text": "テキストや音声で会話ができ、指示した役割を演じてくれます。", "startMs": 8180, "endMs": 12900 },
+        { "text": "今回のロープレでは、Geminiに「手ごわいお客様役」と、", "startMs": 13140, "endMs": 17120 },
+        { "text": "「採点してくれるコーチ役」の両方を担当してもらいます。", "startMs": 17120, "endMs": 20620 }
+      ],
+      "durationSec": 20.77,
+      "durationFrames": 623,
+      "startFrame": 5251,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 13,
+      "image": "Slide_13.png",
+      "audio": "スライド13_プロンプトの2つの材料.mp3",
+      "subtitles": [
+        { "text": "AIをロープレ相手にするためには、", "startMs": 0, "endMs": 2500 },
+        { "text": "AIへの指示文（プロンプト）が重要になります。", "startMs": 2860, "endMs": 5620 },
+        { "text": "この台本には2つの材料が必要です。", "startMs": 6140, "endMs": 8420 }
+      ],
+      "durationSec": 8.52,
+      "durationFrames": 256,
+      "startFrame": 5934,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 14,
+      "image": "Slide_14.png",
+      "audio": "スライド14_材料①具体的なゴール設定.mp3",
+      "subtitles": [
+        { "text": "材料①、具体的なゴール設定。", "startMs": 0, "endMs": 3180 },
+        { "text": "「クロージングの練習」ではなく、", "startMs": 3960, "endMs": 5720 },
+        { "text": "「お客様の『もう少し考えます』に対して、", "startMs": 6020, "endMs": 8740 },
+        { "text": "3つの質問で不安を引き出し、その場で解決する", "startMs": 8960, "endMs": 12080 },
+        { "text": "切り返しパターンをマスターする」というように、", "startMs": 12080, "endMs": 14860 },
+        { "text": "できるだけ具体的に設定します。", "startMs": 15360, "endMs": 17160 }
+      ],
+      "durationSec": 17.24,
+      "durationFrames": 517,
+      "startFrame": 6250,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 15,
+      "image": "Slide_15.png",
+      "audio": "スライド15_材料②手ごわい相手の設計.mp3",
+      "subtitles": [
+        { "text": "材料②、自分だけの「手ごわい相手」の設計。", "startMs": 0, "endMs": 4500 },
+        { "text": "最高の練習相手は、あなたの「これを言われると困る…」を、", "startMs": 5460, "endMs": 9260 },
+        { "text": "的確に突いてくる相手です。", "startMs": 9260, "endMs": 12060 },
+        { "text": "自分の苦手なタイプを設定することで、", "startMs": 12060, "endMs": 14460 },
+        { "text": "弱点を克服する練習ができます。", "startMs": 14460, "endMs": 16400 }
+      ],
+      "durationSec": 16.43,
+      "durationFrames": 493,
+      "startFrame": 6827,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 16,
+      "image": "Slide_16.png",
+      "audio": "スライド16_キャラクター設定例.mp3",
+      "subtitles": [
+        { "text": "例えば、「値切り侍」というキャラクターなら、", "startMs": 0, "endMs": 2520 },
+        { "text": "「安さが一番」「いくらなの？」", "startMs": 3060, "endMs": 4960 },
+        { "text": "「あっちの会社の方が安かったよ」と価格で攻めてきます。", "startMs": 5400, "endMs": 8780 },
+        { "text": "「うんちく博士」というキャラクターなら、", "startMs": 9760, "endMs": 11500 },
+        { "text": "勉強家で営業マンを試すような専門的な質問をしてきます。", "startMs": 12100, "endMs": 15540 }
+      ],
+      "durationSec": 15.73,
+      "durationFrames": 472,
+      "startFrame": 7380,
+      "gapAfterFrames": 30
+    },
+    {
+      "id": 17,
+      "image": "Slide_17.png",
+      "audio": "スライド17_まとめ.mp3",
+      "subtitles": [
+        { "text": "いかがでしたか？", "startMs": 0, "endMs": 1440 },
+        { "text": "今回ご紹介した方法を使えば、", "startMs": 1880, "endMs": 3800 },
+        { "text": "AIを「最強の営業コーチ」に変えることができます。", "startMs": 3800, "endMs": 7500 },
+        { "text": "ポイントは3つです。", "startMs": 8000, "endMs": 9880 },
+        { "text": "1つ目、練習のゴールを具体的に設定すること。", "startMs": 9880, "endMs": 14020 },
+        { "text": "何ができるようになりたいかを明確にしましょう。", "startMs": 14260, "endMs": 17120 },
+        { "text": "2つ目、自分の苦手な相手をキャラクターとして設計すること。", "startMs": 18480, "endMs": 22800 },
+        { "text": "弱点を突かれる練習こそが、本当の成長につながります。", "startMs": 22800, "endMs": 26740 },
+        { "text": "3つ目、採点とフィードバックを活用して、", "startMs": 27920, "endMs": 30260 },
+        { "text": "何度も繰り返し練習すること。", "startMs": 30260, "endMs": 32780 },
+        { "text": "AIは何度でも付き合ってくれます。", "startMs": 33240, "endMs": 35800 },
+        { "text": "この方法は、初回面談、ヒアリング、クロージング、", "startMs": 35800, "endMs": 40200 },
+        { "text": "値引き交渉、クレーム対応など、", "startMs": 40660, "endMs": 42960 },
+        { "text": "あらゆる営業シーンに応用できます。", "startMs": 42960, "endMs": 45140 },
+        { "text": "プロンプトのテンプレートは概要欄からダウンロードできますので、", "startMs": 46460, "endMs": 49320 },
+        { "text": "ぜひ皆さんも自分用にカスタマイズして、", "startMs": 49320, "endMs": 51620 },
+        { "text": "現場で活かしてみてください。", "startMs": 51620, "endMs": 53120 }
+      ],
+      "durationSec": 53.24,
+      "durationFrames": 1597,
+      "startFrame": 7912,
+      "gapAfterFrames": 30
+    }
+  ]
+}

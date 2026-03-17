@@ -1,5 +1,6 @@
 {
   "enabledPlugins": {
-    "document-skills@anthropic-agent-skills": true
+    "document-skills@anthropic-agent-skills": true,
+    "baa@baa-script-production": true
   }
 }
